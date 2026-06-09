@@ -1,3 +1,3 @@
 function add(a, b) {
-  return a - b;  // Bug: wrong operator
+  return a + b;  // Fixed!
 }
