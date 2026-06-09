@@ -1,9 +1,3 @@
 function add(a, b) {
-  return a + b;
+  return a - b;  // Bug: wrong operator
 }
-
-function greet(name) {
-  return `Hello, ${name}!`;
-}
-
-module.exports = { add, greet };
